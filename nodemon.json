@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_NAME": "dombub1",
+        "MONGO_PASSWORD": "dombub1",
+        "MONGO_DATABASE": "myFirstDatabase"
+    }
+}
