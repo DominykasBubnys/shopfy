@@ -151,7 +151,7 @@ exports.postSignup = (req, res, next) => {
             to: email,
             from: "ecomforce4business@gmail.com",
             subject: "Registration successful!",
-            html: "<h1> Welcome to Dominykas online store!</h1><br><h2>Now you can add your own products or even sell or buy anything!</h2>"
+            html: "<h1> Welcome to our online store!</h1><br><h2>Now you can add your own products or even sell or buy anything!</h2>"
           })
           .then(res => console.log("your email was send successfuly to ", email))
 
